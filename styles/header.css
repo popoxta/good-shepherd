@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--dark);
+
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 1rem 0;
+
+    border-bottom: 2px solid var(--gold);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header > h1 {
+    color: var(--light);
+
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: var(--title);
+
+    line-height: 0.8;
+}
+
+.header > h2 {
+    color: var(--gold);
+    font-size: var(--sub-header);
+
+}
+
+.header > h2:last-child {
+    align-self: flex-end;
+
+}
