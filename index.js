@@ -5,9 +5,9 @@ const menuPage = document.querySelector(".menu")
 const menu = document.querySelector(".menu-nav")
 menu.addEventListener('click', (e) => {
     e.preventDefault()
+
     displayPage(menuPage)
     displaySelection(menu)
-
 })
 
 const home = document.querySelector(".home-nav")
@@ -16,7 +16,6 @@ home.addEventListener('click', (e) => {
 
     displayPage(homePage)
     displaySelection(home)
-
 })
 
 const about = document.querySelector(".about-nav")
@@ -25,7 +24,6 @@ about.addEventListener('click', (e) => {
 
     displayPage(aboutPage)
     displaySelection(about)
-
 })
 
 function displayPage(page){
